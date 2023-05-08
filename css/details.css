@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.describe {
+  font-size: 18px;
+  margin-left: 60px;
+  line-height: 35px;
+}
+.align-center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.courage,
+.commitment,
+.focus,
+.openness,
+.respect {
+  margin-left: 60px;
+  line-height: 35px;
+}
+.courage h2 {
+  font-size: 30px;
+}
+.courage input[type="checkbox"] {
+  /* Your styles here */
+  font-size: 3rem;
+}
+.courage input[type="checkbox"]:checked {
+  background-color: red;
+}
+
+.commitment h2 {
+  font-size: 30px;
+}
+.focus h2 {
+  font-size: 30px;
+}
+.openness h2 {
+  font-size: 30px;
+}
+.respect h2 {
+  font-size: 30px;
+}
+.btn_result {
+  display: block;
+  margin: 12px auto;
+  font-size: 1.3rem;
+  padding: 12px;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #0066cc;
+}
+.btn_result:hover {
+  opacity: 0.9;
+  background-color: #00cc99;
+  color: #ffffff;
+}
+#respect-input,
+#courage-input,
+#commitment-input,
+#focus-input,
+#openness-input {
+  font-size: 14px;
+  width: 126px;
+  height: 28px;
+}
+#scrum-chart {
+  height: 0;
+  width: 0;
+}
+#scrum_chart {
+  height: 700px;
+  width: 700px;
+}
